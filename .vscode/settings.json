@@ -1,0 +1,17 @@
+{
+    "github.copilot.chat.reviewSelection.instructions": [
+        {
+            "file": "copilot/copilot-review.md"
+        }
+    ],
+    "github.copilot.chat.codeGeneration.instructions": [
+        {
+            "file": "copilot/copilot-gen.md"
+        }
+    ],
+    "github.copilot.chat.testGeneration.instructions": [
+        {
+            "file": "copilot/copilot-test.md"
+        }
+    ],
+}

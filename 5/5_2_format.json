@@ -1,0 +1,1 @@
+{'ResponseMetadata': {'HTTPStatusCode': 200, 'HTTPHeaders': {'x-powered-by': 'Express', 'content-type': 'application/json; charset=utf-8', 'content-length': '29', 'etag': 'W/"1d-xxxxxLOWYQgV9QLDh5W3w7Uz4sQ"', 'date': 'Fri, 15 Nov 2024 02:28:45 GMT', 'connection': 'keep-alive', 'keep-alive': 'timeout=5'}, 'RetryAttempts': 0}, 'MessageId': 'ses-000404212'}
