@@ -1,0 +1,26 @@
+# 右クリック → Copilot → 説明
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: example-job
+spec:
+  concurrencyPolicy: Allow
+  schedule: "03 */1 * * *"
+  successfulJobsHistoryLimit: 1
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+            -
+              name: example-job
+              image: jp.icr.io/example/example:3.0.25
+              env:
+                - name: TZ
+                  value: Asia/Tokyo
+                - name: VERSION
+                  value: "3.0.25"
+                - name: PRODUCTION
+                  value: "1"
+          restartPolicy: Never
+      backoffLimit: 1
