@@ -1,0 +1,1 @@
+// Ctrl + i → "/new AWSにSESでメールを送るクラス"
